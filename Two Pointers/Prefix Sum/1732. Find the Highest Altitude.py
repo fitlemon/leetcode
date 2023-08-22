@@ -32,4 +32,4 @@ class Solution:
         for i in range(len(gain)):
             if i > 0:
                 gain[i] += gain[i - 1]
-        return max(gain)
+        return max(gain)    
